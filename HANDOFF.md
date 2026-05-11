@@ -9,6 +9,46 @@
 cd /Users/yaskodama/local-genai-chatgpt
 ```
 
+## Git / GitHub 状態
+
+GitHubリポジトリ:
+
+```text
+https://github.com/yaskodama/local-gen-chatgpt-none
+```
+
+remote:
+
+```bash
+origin https://github.com/yaskodama/local-gen-chatgpt-none.git
+```
+
+現在のローカル状態:
+
+```text
+branch: main
+HEAD: 57cab02 Initial tiny GA text generator
+origin/main: 57cab02 Initial tiny GA text generator
+working tree: clean
+```
+
+次回確認:
+
+```bash
+git status --short --branch
+git log --oneline --decorate --max-count=5
+git remote -v
+```
+
+push確認:
+
+```bash
+git push -u origin main
+```
+
+この実行環境からは `github.com` の名前解決ができず `Could not resolve host: github.com` になることがあります。
+その場合は、通常のターミナルから同じコマンドを実行してください。
+
 ## Python環境
 
 仮想環境は作成済みです。
@@ -119,6 +159,7 @@ source .venv/bin/activate
 ログと現状確認:
 
 ```bash
+git status --short --branch
 wc -l results/log.jsonl
 wc -c data/train.txt data/valid.txt
 sed -n '1,120p' results/best_valid_genome.json
