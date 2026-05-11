@@ -1,0 +1,44 @@
+春の夕方、古い机のそばで少女は新しい物語を考えた。
+図書館の窓から風が入り、ページの上で小さな言葉が揺れた。
+まだ書かれていない文章は、少しずつ別の形になっていった。
+言葉を選び、音を聞き、短い歌のような一文が生まれた。
+
+曇りの日、町の広場には静かな足音が集まっていた。
+少年は赤い本を抱え、噴水のそばで友人を待っていた。
+本の中には、遠い森へ向かう列車と、銀色の切符の話が書かれていた。
+彼は一ページだけ読み、続きは家に帰ってから読むことにした。
+
+夕暮れの読書室では、ランプの光が机の端を丸く照らした。
+誰かが置き忘れた栞には、小さな花の絵が描かれていた。
+司書はその栞を箱に入れ、持ち主が戻る日を待った。
+忘れ物にも短い物語があり、見つける人によって意味が変わる。
+
+冬の朝、窓ガラスは白く曇り、外の道はまだ静かだった。
+少女は手袋を外して鉛筆を持ち、昨日とは違う始まりを書いた。
+同じ場所、同じ机、同じノートでも、言葉は毎日少しずつ違っていた。
+一つの文が次の文を呼び、やがて小さな場面が立ち上がった。
+
+検証用の文章は、学習用とは違う表現で同じ世界を描く。
+モデルが覚えた行をそのまま返すだけなら、ここで高い損失になる。
+似た雰囲気を保ちながら新しい並びを予測できれば、少しだけ汎化していると言える。
+この評価は完璧ではないが、短い実験では重要な目安になる。
+
+In a small library, the model reads a different quiet story.
+It follows letters, checks the next character, and learns from mistakes.
+Simple words move into new sentences, but the answer should not only copy.
+Practice helps the tiny machine write a little more clearly.
+
+At dusk, a lamp shines on a wooden desk near the window.
+A reader finds a bookmark with a faded drawing of a flower.
+The book is not the same as the training story, but the rhythm is familiar.
+There are pages, quiet rooms, careful sentences, and small discoveries.
+
+The validation text asks a different question from the training text.
+It does not reward exact memory as much as flexible prediction.
+A tiny model may still fail, repeat, or mix languages in strange ways.
+Those errors are useful because they show what the model has not learned yet.
+
+If the corpus grows, the measurements become more meaningful.
+Perplexity can fall for the right reason when the model learns common structure.
+Bits per byte can also improve when character predictions become less surprising.
+The best checkpoint should be chosen by held out text, not only by the easiest training lines.

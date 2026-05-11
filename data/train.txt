@@ -1,0 +1,66 @@
+春の朝、町の小さな図書館に光が差し込んだ。
+机の上には古いノートと、まだ書かれていない物語があった。
+少女はページをめくり、風の音を聞きながら短い文章を書いた。
+言葉は少しずつ形を変え、別の言葉を呼び、やがて不思議な歌になった。
+
+雨の日には、窓の外で細い水の線が石畳をなぞった。
+少年は青い傘を閉じ、入口のそばで靴についた水を落とした。
+受付の時計は静かに進み、棚の奥では古い紙の匂いが眠っていた。
+彼は地図の本を開き、まだ行ったことのない町の名前を指でたどった。
+小さな港、白い灯台、丘の上の学校、夕焼けの市場。
+それぞれの名前は短い鍵のように、別の景色を開いていった。
+
+昼下がり、図書館の読書室には鉛筆の音だけが残っていた。
+誰かが書いた手紙の下書きには、消しゴムの跡がいくつもあった。
+うまく言えなかった気持ちは、何度も書き直されるうちに少し柔らかくなった。
+一文を削り、一語を選び、最後に残った言葉だけが封筒に入った。
+その手紙は遠い町へ送られ、数日後、小さな返事を連れて戻ってきた。
+
+夜になると、閉館後の廊下に月の光が落ちた。
+本棚の影は床に長く伸び、背表紙の金色の文字がかすかに光った。
+司書は最後の本を元の場所に戻し、明日のために机を整えた。
+誰もいない部屋でも、物語は完全には眠らなかった。
+読まれるのを待つ文章は、暗い棚の中で静かに息をしていた。
+
+小さな生成モデルは、文字を一つずつ見ながら次の文字を予測する。
+最初は間違いばかりで、意味のある文を作ることは難しい。
+しかし同じ練習を何度も繰り返すと、句読点、空白、短い語の並びを少しずつ覚える。
+よい文章を作るには、ただ暗記するだけでは足りない。
+知らない文を読んでも、近い形を見つけて自然に続ける力が必要になる。
+
+学習用の文章には、同じ主題を少し違う言い方で何度も含める。
+朝、昼、夜、雨、風、手紙、地図、図書館、少女、少年。
+似た言葉が別の文脈で現れると、モデルは単なる丸写しではなく関係を学びやすくなる。
+短い文と長い文を混ぜることで、改行や句読点の使い方も少し安定する。
+それでも小さなモデルには限界があり、長い推論や深い意味理解はできない。
+この実験では、まず文字の流れを滑らかにすることを目標にする。
+
+In a quiet room, a tiny model learns one character at a time.
+It guesses the next letter, makes mistakes, and tries again.
+Small patterns become sentences, and sentences become a simple story.
+The machine is not wise, but it can practice and improve.
+
+On rainy mornings, the library smells like paper, dust, and wet stone.
+A child opens a notebook and copies the title of an old travel book.
+The first line is simple, but the second line begins to wander.
+It mentions a harbor, a hill, a market, and a road that disappears into fog.
+Each word gives the next word a small direction.
+
+The tiny model does not understand the world as a person does.
+It counts patterns in characters, spaces, commas, and line breaks.
+When the training text is too short, the model often repeats a phrase.
+When the text is a little larger, it can choose from more examples.
+Better data does not make the model truly intelligent, but it gives practice a wider path.
+
+During training, loss measures how surprised the model is by the next character.
+Validation loss checks the model on text that was not used for training.
+Perplexity is another way to read the same uncertainty.
+Bits per byte is useful for character and byte level models because it connects prediction with compression.
+Lower values are better, but the numbers only matter when the test data is fair.
+
+A careful experiment keeps training text and validation text separate.
+The training text teaches the model.
+The validation text asks whether the model can generalize.
+If the model only memorizes, training loss may become small while validation loss remains high.
+The goal is not to copy one paragraph perfectly.
+The goal is to produce text that follows the style without repeating the same line forever.
